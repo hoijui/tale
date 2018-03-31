@@ -1,12 +1,21 @@
 // Colors
-$default-color: #555;
-$default-shade: #353535;
-$default-tint: #aaa;
+$black:  #000;
+$grey-dark: #353535;
 $grey-1: #979797;
 $grey-2: #e5e5e5;
 $grey-3: #f9f9f9;
-$white: #fff;
+$red:    #f00;
+$green:  #0f0;
+$blue:   #00f;
+$yellow: #ff0;
+$purple: #f0f;
+$white:  #fff;
 $blueish: #4a9ae1;
+
+$default-color: #555;
+$default-shade: $grey-dark; // color for the (horizontal-)lines
+$default-tint: #aaa;
+
 $link-color: $blueish;
 $shadow-color: rgba(0, 0, 0, .2);
 $code-color: #bf616a;

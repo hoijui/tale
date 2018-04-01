@@ -9,6 +9,9 @@
         <a href="{{ site.baseurl }}/">
           <h2 class="nav-title">{{ site.title }}</h2>
         </a>
+        {% if site.author and site.nav_show_author %}
+	  <span class="meta-info"><i>by</i> {{ site.author }}</span>
+        {% endif %}
         <ul>
           <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
           <li><a href="{{ site.baseurl }}/">Posts</a></li>

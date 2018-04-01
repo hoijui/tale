@@ -16,6 +16,7 @@ markdown:       kramdown
 # Content visibility settings
 #hide_footer: false # default: false
 #hide_theme_info: false # default: false
+#nav_show_author: false # default: false
 
 # Assets
 sass:
